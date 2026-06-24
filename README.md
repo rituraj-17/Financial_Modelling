@@ -1,6 +1,6 @@
 # Financial Modelling
 
-A collection of financial modelling assignments and projects covering core valuation techniques — DCF (Discounted Cash Flow), Multiple Valuation, Merger & Acquisition Analysis, and comparative company analysis.
+A collection of financial modelling assignments and projects covering core valuation techniques — DCF (Discounted Cash Flow), Multiple Valuation, Merger & Acquisition Analysis, and comparative company analysis. Completed as part of FAC Wintercamp 2024.
 
 ---
 
@@ -8,16 +8,17 @@ A collection of financial modelling assignments and projects covering core valua
 
 | File | Description |
 |------|-------------|
-| `HONDA MOTOR CO DCF .xlsx` | DCF valuation model for Honda Motor Co. (Assignment 3) |
-| `NISSAN MOTORS DCF.xlsx` | DCF valuation model for Nissan Motors (Assignment 3) |
-| `Merger Valuation.xlsx` | M&A valuation model for the Nissan–Mitsubishi–Honda merger (Assignment 3) |
-| `EXTENSIVE REPORT.pdf` | Detailed written report covering the M&A analysis and conclusions |
+| `HONDA MOTOR CO DCF .xlsx` | Standalone DCF valuation model for Honda Motor Co. |
+| `NISSAN MOTORS DCF.xlsx` | Standalone DCF valuation model for Nissan Motors |
+| `Merger Valuation.xlsx` | Three-way M&A valuation model — Nissan × Mitsubishi × Honda |
+| `EXTENSIVE REPORT.pdf` | Buy-side M&A advisory report covering deal rationale, synergies, and risks |
 
 ---
 
 ## Assignments
 
 ### Assignment 1 — Multiple Valuation & Company Comparison
+*Individual*
 
 **Part A: Multiple Valuation — Bumble Inc.**
 
@@ -28,7 +29,7 @@ Metrics used:
 - **EV/Revenue**
 - **P/E (Price-to-Earnings)**
 
-Comparable companies were selected from the **online dating industry** (e.g., Match Group, MeetMe, Spark Networks, etc.) to ensure accuracy and relevance. The analysis concludes with an **investment recommendation** based on where Bumble trades relative to its peers.
+Comparable companies were selected from the **online dating industry** (e.g., Match Group, MeetMe, Spark Networks, etc.) to ensure sector relevance. The analysis concludes with an **investment recommendation** based on where Bumble trades relative to its peers.
 
 **Part B: Company Comparison**
 
@@ -39,6 +40,7 @@ A structured comparison of two companies across key financial and strategic para
 ---
 
 ### Assignment 2 — DCF Valuation of Tesla Inc.
+*Individual*
 
 **Objective:** Estimate the intrinsic value of **Tesla Inc. (TSLA)** using the Discounted Cash Flow method.
 
@@ -59,46 +61,39 @@ A structured comparison of two companies across key financial and strategic para
    ```
    rₑ = rᶠ + β × (rₘ − rᶠ)
    ```
-
 2. **WACC** — Used as the discount rate throughout the model.
-
 3. **Revenue Projections** — 10-year forecast using tiered growth rates.
-
 4. **Free Cash Flow (FCF)** — Estimated by applying an appropriate FCF margin to projected revenues.
-
 5. **Terminal Value:**
    ```
    TV = FCF_final × (1 + g) / (WACC − g)
    ```
-
 6. **Present Value** — All future FCFs and terminal value discounted back to today.
-
-7. **Fair Value per Share** — Compared against the market price to determine if TSLA is undervalued or overvalued.
+7. **Fair Value per Share** — Compared against market price to determine if TSLA is undervalued or overvalued.
 
 ---
 
 ### Assignment 3 — M&A Valuation: Nissan × Mitsubishi × Honda
+*Team Project (3–4 members)*
 
-**Objective:** Analyze and value the proposed merger involving **Nissan Motors**, **Mitsubishi Motors**, and **Honda Motor Co.** — one of the most significant consolidations in the global automotive industry.
+**Objective:** Assess the financial feasibility of a three-way Nissan–Honda–Mitsubishi merger by building independent valuation models to evaluate intrinsic value, synergy potential, and deal attractiveness from a strategic and shareholder-value perspective.
 
 **Files:**
 - `NISSAN MOTORS DCF.xlsx` — Standalone DCF valuation of Nissan Motors
 - `HONDA MOTOR CO DCF .xlsx` — Standalone DCF valuation of Honda Motor Co.
-- `Merger Valuation.xlsx` — Combined M&A valuation model for the three-way deal
-- `EXTENSIVE REPORT.pdf` — Full written analysis covering deal rationale, synergies, and conclusions
+- `Merger Valuation.xlsx` — Combined three-way M&A valuation model
+- `EXTENSIVE REPORT.pdf` — Full written analysis structured as a buy-side M&A advisory deliverable
 
-**Analysis Covers:**
+**Approach:**
 
-- **Standalone DCF valuations** of Nissan and Honda to establish intrinsic value baselines
-- **Merger valuation model** assessing the combined entity's value post-acquisition
-- **Synergy analysis** — cost and revenue synergies expected from the consolidation
-- **Deal structure** — evaluation of terms, share exchange ratios, and implied premiums
-- **Strategic rationale** — why the three automakers pursued this consolidation (EV transition, cost pressures, market share defense against Chinese OEMs)
-- **Investment conclusion** — whether the merger creates or destroys shareholder value
+- **Standalone DCF Valuations** — Built independent DCF models for Nissan, Honda, and Mitsubishi using CAPM-derived WACC, multi-stage revenue growth assumptions, and terminal value estimation.
+- **Comparable Company Analysis** — Benchmarked the three automakers against global peers including Toyota, Volkswagen, and Tesla across EV/EBITDA, EV/Revenue, and P/E multiples.
+- **Three-Way Merger Model** — Constructed a combined entity valuation assessing post-merger value, cost and revenue synergies, and accretion/dilution impact on shareholders.
+- **M&A Advisory Report** — Authored a report evaluating deal rationale, integration risks, and regulatory considerations, structured as a buy-side M&A advisory deliverable.
 
-**Context:**
+**Strategic Context:**
 
-The Nissan–Mitsubishi–Honda merger discussions gained prominence in late 2024 as the three Japanese automakers faced mounting pressure from slowing ICE vehicle demand, the accelerating shift to EVs, and intensifying competition from Chinese manufacturers like BYD. The merger aimed to pool R&D resources, reduce redundancies, and build scale to compete globally.
+The Nissan–Mitsubishi–Honda merger discussions gained prominence in late 2024 as the three Japanese automakers faced mounting pressure from slowing ICE vehicle demand, the accelerating global shift to EVs, and intensifying competition from Chinese manufacturers like BYD. The consolidation aimed to pool R&D resources, eliminate redundancies, and build the scale needed to compete globally.
 
 ---
 
@@ -116,9 +111,15 @@ The Nissan–Mitsubishi–Honda merger discussions gained prominence in late 202
 - CAPM & WACC Calculation
 - Terminal Value Estimation
 - Merger & Acquisition (M&A) Valuation
-- Synergy Analysis
+- Synergy Analysis (Cost & Revenue)
+- Accretion / Dilution Analysis
+- Buy-Side M&A Advisory Framing
 - Investment Decision Frameworks
 
 ---
+
+## 👤 Author
+
+**Rituraj** — [@rituraj-17](https://github.com/rituraj-17)
 
 *Financial Modelling | FAC Wintercamp 2024*
